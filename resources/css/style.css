@@ -233,7 +233,7 @@
   }
 }
 
-i {
+i.icon {
   background-color: rgb(236, 157, 10);
   padding: 1.4rem
 }
@@ -265,13 +265,12 @@ i {
 footer {
   background-color: rgb(168, 63, 63);
   color: white;
-  margin-top:0%;
 }
 
 footer a {
   color: #fff;
   font-size: 14px;
-  transition-duration: 0.2s;
+  transition-duration: 0.5s;
 }
 
 footer a:hover {
@@ -285,67 +284,7 @@ footer a:hover {
   border-top: 1px solid #FFFFFF;
 }
 
-/*SOCİAL İCONS*/
-
-/* footer social icons */
-
-ul.social-network li {
-  display: inline;
-  margin: 0 8px;
-}
 
 
-/* footer social icons */
-
-.social-network a.icoFacebook:hover {
-  background-color: #3B5998;
-}
-
-.social-network a.icoLinkedin:hover {
-  background-color: #007bb7;
-}
-
-.social-network a.icoFacebook:hover i,
-.social-network a.icoLinkedin:hover i {
-  color: #fff;
-}
-
-.social-network a.socialIcon:hover,
-.socialHoverClass {
-  color: #44BCDD;
-}
-
-.social-circle li a {
-  display: inline-block;
-  position: relative;
-  margin: 0 auto 0 auto;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-  text-align: center;
-  width: 30px;
-  height: 30px;
-  font-size: 15px;
-}
-
-.social-circle li i {
-  margin: 0;
-  line-height: 30px;
-  text-align: center;
-}
-
-.social-circle li a:hover i,
 
 
-.social-circle i {
-  color: #595959;
-  -webkit-transition: all 0.8s;
-  -moz-transition: all 0.8s;
-  -o-transition: all 0.8s;
-  -ms-transition: all 0.8s;
-  transition: all 0.8s;
-}
-
-.social-network a {
-  background-color: #F9F9F9;
-}
