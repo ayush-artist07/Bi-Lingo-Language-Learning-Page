@@ -1,8 +1,4 @@
 /*alert Offer Anouncement*/
-.alert {
-  margin-top: 0%;
-  margin-bottom: 0%;
-}
 
 .alert-custom {
   background-color: #faba42;
@@ -15,18 +11,19 @@
   color: white;
 }
 
-.btn-outline-custom {
-  background-color: #faba42;
-}
-
+/* Navigation bar */
 .bg-orange {
   background-color: #eed4a4;
 }
 
+.btn-outline-custom {
+  background-color: #faba42;
+}
+
+/* Home  */
 #home {
   background-color: #eed4a4;
   color: rgb(168, 63, 63);
-  bottom: 0%;
 }
 
 .resize img {
@@ -34,28 +31,15 @@
   height: 100%;
 }
 
-/* Why Bilingo */
-#whybilingo {
-  margin: 4px;
-}
-
-#whybilingo>.bg-dark {
-
-  background-color: #eed4a4 !important;
-}
-
-
-
 /* Browse Course Section */
 
 .contenedor {
   height: 100%;
-  padding: 0% 0;
 }
 
 .container_foto {
   background-color: rgba(57, 62, 93, 0.7);
-  padding: 0;
+  padding: 0%;
   overflow: hidden;
   max-width: 370px;
   margin: 5px;
@@ -66,10 +50,6 @@
   position: absolute;
   bottom: 0;
   z-index: 1;
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  -ms-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 
@@ -88,13 +68,8 @@
 
 .container_foto img {
   width: 100%;
-  top: 0;
   left: 0;
   opacity: 0.4;
-  -webkit-transition: all 4s ease;
-  -moz-transition: all 4s ease;
-  -o-transition: all 4s ease;
-  -ms-transition: all 4s ease;
   transition: all 4s ease;
 }
 
@@ -107,14 +82,6 @@
   z-index: 1;
   opacity: 0;
   transform: translate(0px, 70px);
-  -webkit-transform: translate(0px, 70px);
-  -moz-transform: translate(0px, 70px);
-  -o-transform: translate(0px, 70px);
-  -ms-transform: translate(0px, 70px);
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 
@@ -126,7 +93,6 @@
   width: 100%;
   top: 10px;
 }
-
 
 /*hovers*/
 
@@ -141,19 +107,21 @@
 
 .container_foto:hover article {
   transform: translate(2px, -69px);
-  -webkit-transform: translate(2px, -69px);
-  -moz-transform: translate(2px, -69px);
-  -o-transform: translate(2px, -69px);
-  -ms-transform: translate(2px, -69px);
+
 }
 
 .container_foto:hover .ver_mas {
   transform: translate(0px, 0px);
-  -webkit-transform: translate(0px, 0px);
-  -moz-transform: translate(0px, 0px);
-  -o-transform: translate(0px, 0px);
-  -ms-transform: translate(0px, 0px);
   opacity: 1;
+}
+
+/* Why Bilingo */
+#whybilingo {
+  margin: 4px;
+}
+
+#whybilingo>.bg-dark {
+  background-color: #eed4a4 !important;
 }
 
 /* Offer Button */
@@ -165,17 +133,18 @@
 /* Testimonials */
 
 .testimonials {
-  min-height: 100vh;
+  min-height: 90vh;
   display: flex;
   align-items: center;
-  background-color: rgb(235, 182, 83);
+  background-color: rgb(231, 183, 93);
   font-family: 'Open Sans';
   font-style: italic;
 }
 
 #demo {
   background: linear-gradient(112deg, #ffffff 50%, rgb(235, 207, 155) 50%);
-  max-width: 900px;
+  max-width: 800px;
+  max-height: 400px;
   margin: auto
 }
 
@@ -222,20 +191,20 @@
 #image-caption {
   font-style: normal;
   font-size: 1rem;
-  margin-top: 0.5rem
+  margin-top: 0.5rem;
 }
 
 @media(max-width:767px) {
   #image-caption {
     font-style: normal;
     font-size: 0.6rem;
-    margin-top: 0.5rem
+    margin-top: 0.5rem;
   }
 }
 
 i.icon {
   background-color: rgb(236, 157, 10);
-  padding: 1.4rem
+  padding: 1.4rem;
 }
 
 @media(max-width:767px) {
@@ -257,8 +226,6 @@ i.icon {
   transition: none;
   opacity: unset
 }
-
-
 
 /*FOOTER*/
 
@@ -283,8 +250,3 @@ footer a:hover {
   padding: 10px;
   border-top: 1px solid #FFFFFF;
 }
-
-
-
-
-
