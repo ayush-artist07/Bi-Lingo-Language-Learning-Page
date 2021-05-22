@@ -4,8 +4,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="keywords" content="Online Courses, Free Courses ,learn and earn">
+  <meta name="description"
+    content="Leave all the boring and exhaustive ways of learning a new language. Here language learning is a fun ">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-  <link rel="icon" href="./resources/images/learn-icon2.jpg">
   <meta name="author" content="Ayush">
 
   <!-- Bootstrap CSS -->
@@ -16,7 +17,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <!--Webpage Icon-->
-  <link rel="icon" href="./resources/images/icon.jpg">
+  <link rel="icon" href="./resources/images/favicons/title icon.jpg">
 
   <!--Custom StyleSheet-->
   <link rel="stylesheet" href="./resources/css/style.css">
@@ -34,10 +35,10 @@
     <div class="alert alert-custom alert-dismissible fade show text-center my-0" role="alert">
       Get Access to <strong>Free Course</strong> limted period offer. <strong>Hurry Up! <span
           id="timer"></span></strong>
-      <a href="#"><button type="button" class="btn btn-custom">Book a Demo</button></a>
+      <a href="#" title="Let's Learn"><button type="button" class="btn btn-custom">Book a Demo</button></a>
 
       <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
-          aria-hidden="true">&times;</span></button>
+          title="Close">&times;</span></button>
     </div>
 
     <!--Navigation Bar-->
@@ -45,54 +46,54 @@
     <nav class="navbar navbar-expand-lg navbar-light  bg-light" id="topnavbar">
       <div class="container-fluid">
 
-        <a class="navbar-brand" href="index.html"><img src="./resources/images/lingo-icon2.jpg" width="100%"
-            height="auto"></a>
+        <a class="navbar-brand" href="index.html" title="Visit Home Page"><img
+            src="./resources/images/navigation/brand-logo.jpg" alt="Brand Icon" width="100%" height="auto"></a>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" title="Navigate" data-toggle="collapse"
+          data-target="#navbarSupportedContent" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
 
         </button>
         <div class="collapse navbar-collapse " id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto mb-2 mb-lg-0 ">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              <a class="nav-link active" aria-current="page" title="Home Section" href="#home">Home</a>
             </li>
 
 
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                aria-expanded="false">
+              <a class="nav-link dropdown-toggle" id="navbarDropdown" title="Languages Offered" role="button"
+                data-toggle="dropdown" aria-expanded="false">
                 Browse Courses
               </a>
-              <ul class="dropdown-menu bg-orange" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#browsecourse">English</a></li>
-                <li><a class="dropdown-item" href="#browsecourse">Spanish</a></li>
-                <li><a class="dropdown-item" href="#browsecourse">Chinese</a></li>
-                <li><a class="dropdown-item" href="#browsecourse">Japanese</a></li>
-                <li><a class="dropdown-item" href="#browsecourse">French</a></li>
-                <li><a class="dropdown-item" href="#browsecourse">Hindi</a></li>
+              <ul class="dropdown-menu bg-orange">
+                <li><a class="dropdown-item" href="#browsecourse" title=" Start Learning English">English</a></li>
+                <li><a class="dropdown-item" href="#browsecourse" title="Start Learning Learn Spanish">Spanish</a></li>
+                <li><a class="dropdown-item" href="#browsecourse" title="Start Learning Chinese">Chinese</a></li>
+                <li><a class="dropdown-item" href="#browsecourse" title="Start Learning Japanese">Japanese</a></li>
+                <li><a class="dropdown-item" href="#browsecourse" title="Start Learning French">French</a></li>
+                <li><a class="dropdown-item" href="#browsecourse" title="Start Learning Hindi">Hindi</a></li>
 
               </ul>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#browsecourse">Pricing</a>
+              <a class="nav-link" href="#aboutus" title="Why we are the best">Why Bi-lingo</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#browsecourse">Purchase</a>
+              <a class="nav-link" href="#browsecourse" title="Quality Courses">Purchase</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#reviews">Testimonials</a>
+              <a class="nav-link" href="#reviews" title="Experience of the customers">Testimonials</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contactus">About Us</a>
+              <a class="nav-link" href="#contactus" title="Let's Connect">Contact Us</a>
             </li>
           </ul>
 
           <form class="d-flex ml-auto">
-            <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-custom" type="submit">Search</button>
+            <input name="Search" class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-custom" type="submit" title="Search Here">Search</button>
           </form>
         </div>
       </div>
@@ -109,14 +110,33 @@
 
       <div class="col-lg-7 col-md-12 mb-2">
 
-        <h3 class="display-2">Bi-Lingo</h3>
-        <h3 class="display-2">Best Language</h3>
-        <h3 class="display-2">Learning Page on Internet</h3>
+        <h3 class="display-3">Best Language</h3>
+        <h3 class="display-3">Learning Page on Internet
+          <span class="ml-auto"><button class="btn btn-custom-home btn-lg " title="Sign Up">Book a Demo</button>
+          </span>
+        </h3>
+
+
+        <div class="row courseCards">
+          <div class="col-lg-4 col-md-4 col-sm-6 courseCard">
+            <span class="details"><i class="fa fa-language"></i> <br>6+ Language's</span>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 courseCard">
+            <span class="details"><i class="fa fa-trophy"></i><br>Best in bussiness Award 2022</span>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 courseCard">
+            <span class="details"><i class="fa fa-code"></i><br>Live Classes</span>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 courseCard">
+            <span class="details"><i class="fa fa-user-plus"></i><br>5,023,45+ Learners</span>
+          </div>
+        </div>
+
       </div>
 
       <div class="col-lg-5 col-md-12 mb-2">
         <div class="resize">
-          <img src="./resources/images/homepage_main.png" class="visible-lg-block">
+          <img src="./resources/images/header/homepage_main.png" class="visible-lg-block">
         </div>
       </div>
     </div>
@@ -125,12 +145,15 @@
 
   <!--Home Section ends here-->
 
+  <!--Why Bi-lingo Section Starts here-->
+
+  <!--Why Bi-Lingo Section ends here-->
 
   <!--Browse Courses Section-->
 
   <section id="browsecourse">
 
-    <div class="container-fluid contenedor text-center">
+    <div class="container-fluid courses text-center">
 
       <!--Course offered Header-->
 
@@ -138,46 +161,46 @@
 
       <!--Languages Offered-->
 
-      <div class=" container text-center">
+      <div class="container text-center">
 
         <div class="row">
           <!--English-->
 
-          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 container_foto ">
-            <div class="ver_mas text-center">
-              <span class="lnr lnr-eye">$20.0 Lifetime Access</span>
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 course_container ">
+            <div class="pricing text-center">
+              <span>$20.0 Lifetime Access</span>
             </div>
             <article class="text-left">
               <h2>English<br></h2>
               <h4>Hello and Welcome to learn <br>English</h4>
             </article>
-            <img src="./resources/images/english.jpg" alt="">
+            <img src="./resources/images/browse courses/english.jpg" alt="">
           </div>
 
           <!--Chinese-->
 
-          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 container_foto">
-            <div class="ver_mas text-center">
-              <span id="click" class="lnr lnr-eye">$20.0 Lifetime Access</span>
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 course_container">
+            <div class="pricing text-center">
+              <span>$20.0 Lifetime Access</span>
             </div>
             <article class="text-left">
               <h2>Chinese <br></h2>
               <h4>Nín hǎo, huānyíng xuéxí <br>Zhōngguó rén</h4>
             </article>
-            <img src="./resources/images/chinese.jpg" alt="">
+            <img src="./resources/images/browse courses/chinese.jpg" alt="">
           </div>
 
           <!--Spainish-->
 
-          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 container_foto ">
-            <div class="ver_mas text-center">
-              <span class="lnr lnr-eye">$4.0 Lifetime Access</span>
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 course_container ">
+            <div class="pricing text-center">
+              <span>$4.0 Lifetime Access</span>
             </div>
             <article class="text-left">
               <h2>Spainish <br></h2>
               <h4>Hola y bienvenido a aprender <br>español</h4>
             </article>
-            <img src="./resources/images/spain.jpg" alt="">
+            <img src="./resources/images/browse courses/spain.jpg" alt="">
           </div>
         </div>
 
@@ -185,41 +208,41 @@
 
           <!--Japanese-->
 
-          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 container_foto ">
-            <div class="ver_mas text-center">
-              <span class="lnr lnr-eye">$50.0 Lifetime Access</span>
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 course_container ">
+            <div class="pricing text-center">
+              <span>$50.0 Lifetime Access</span>
             </div>
             <article class="text-left">
               <h2>Japanese<br></h2>
               <h4>Kon'nichiwa, nihongo o manabu tame<br> ni yōkoso</h4>
             </article>
-            <img src="./resources/images/japanese.jpg" alt="">
+            <img src="./resources/images/browse courses/japanese.jpg" alt="">
           </div>
 
           <!--French-->
 
-          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 container_foto">
-            <div class="ver_mas text-center">
-              <span id="click" class="lnr lnr-eye">$34.0 Lifetime Access</span>
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 course_container">
+            <div class="pricing text-center">
+              <span>$34.0 Lifetime Access</span>
             </div>
             <article class="text-left">
               <h2>French <br></h2>
               <h4>Bonjour et bienvenue pour apprendre <br />français </h4>
             </article>
-            <img src="./resources/images/french.jpg" alt="">
+            <img src="./resources/images/browse courses/french.jpg" alt="">
           </div>
 
           <!--Hindi-->
 
-          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 container_foto ">
-            <div class="ver_mas text-center">
-              <span class="lnr lnr-eye">$8.0 Lifetime Access</span>
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 course_container ">
+            <div class="pricing text-center">
+              <span>$8.0 Lifetime Access</span>
             </div>
             <article class="text-left">
               <h2>Hindi <br></h2>
               <h4>Namaste aur hindi seekhane ke lie aapaka svaagat hai</h4>
             </article>
-            <img src="./resources/images/hindi.jpg" alt="">
+            <img src="./resources/images/browse courses/hindi.jpg" alt="">
           </div>
         </div>
       </div>
@@ -232,12 +255,11 @@
   </section>
 
 
-  <!-- Why Bilingo-->
-  <section id="whybilingo">
-
+  <!-- Quotes -->
+  <section id="quote">
 
     <div class="container p-4 mb-0 mt-2 bg-dark rounded-lg">
-      <p class="text-black font-italic text-center" style="font-size: larger;">"If you talk to a man in a language he
+      <p class="text-black font-italic text-center">"If you talk to a man in a language he
         understands, that goes to his head. If you talk to him in his own language, that goes to his heart."<br>
         <span class="font-italic mt-2">-Nelson Mandela</span>
       </p>
@@ -250,7 +272,8 @@
 
   <!--Offer Button-->
   <div class="container text-center my-4">
-    <button type="button" class="btn btn-offer-brown">Register now and get extra <strong>15% off.</strong>
+    <button type="button" class="btn btn-offer-brown" title="Hurry Up !">Register now and get extra <strong>15%
+        off.</strong><br />on each courses.
     </button>
   </div>
 
@@ -273,7 +296,7 @@
                 teacher, I never thought
                 that teaching/listening in a class would be so much fun.<br> So Thank You Bi-Lingo.
               </p>
-              <img src="./resources/images/hary.jpg">
+              <img src="./resources/images/testimonials/saroj chaudhary.jpg" alt="User's Image">
               <div id="image-caption">Saroj Chaudhary</div>
             </div>
           </div>
@@ -283,7 +306,7 @@
                 to be honest, you made it easy for us. Your classes are interactive and effective.<br> It has been a
                 great journey along with Bi-lingo.
               </p>
-              <img src="./resources/images/crompton.jpg" class="img-fluid">
+              <img src="./resources/images/testimonials/sahil.jpg" alt="User's Image">
               <div id="image-caption">Sahil Khursheed</div>
             </div>
           </div>
@@ -294,7 +317,7 @@
                 word in French. But the way you taught us was pure bliss! The activities were fun. You made us learn
                 without even our own realization.
               </p>
-              <img src="./resources/images/john.jpg" class="img-fluid">
+              <img src="./resources/images/testimonials/narendra.jpg" class="img-fluid">
               <div id="image-caption">Narendra Nandan</div>
             </div>
           </div>
@@ -314,50 +337,51 @@
 
   <!--footer Contact US-->
 
-  <footer id="contactus" role="contentinfo">
+  <footer id="contactus" role="contactinfo">
     <div class="container pt-2 text-white mt-0">
       <div class="row">
         <div class="col-md-3 col-sm-6 mt-5">
           <!--Column1-->
-          
-            <h4>Learn Languages</h4>
-            <ul class="list-unstyled">
-              <li><a href="#"></a></li>
-              <li><a href="#">English</a></li>
-              <li><a href="#">Spainish</a></li>
-              <li><a href="#">Chinese</a></li>
-              <li><a href="#">Japanese</a></li>
-              <li><a href="#">Hindi</a></li>
-            </ul>
-          
+
+          <h4>Learn Languages</h4>
+          <ul class="list-unstyled">
+            <li><a href="#" title="Learn English">English</a></li>
+            <li><a href="#" title="Learn Spainish">Spainish</a></li>
+            <li><a href="#" title="Learn Chinese">Chinese</a></li>
+            <li><a href="#" title="Learn Japanese">Japanese</a></li>
+            <li><a href="#" title="Learn Hindi">Hindi</a></li>
+          </ul>
+
         </div>
         <div class="col-md-3 col-sm-6 mt-5">
           <!--Column1-->
-          
-            <h4>About Us</h4>
-            <ul class="list-unstyled">
-              <li><a href="#">About Bi-Lingo</a></li>
-              <li><a href="#">Carrers</a></li>
-              <li><a href="#">Disclaimer</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-              <li><a href="#">FAQs</a></li>
-              <li><a href="#">Covid-19</a></li>
-            </ul>
-          
+
+          <h4>About Us</h4>
+          <ul class="list-unstyled">
+            <li><a href="#" title="Know More">About Bi-Lingo</a></li>
+            <li><a href="#" title="Job Opportunity">Carrers</a></li>
+            <li><a href="#" title="Dont's">Disclaimer</a></li>
+            <li><a href="#" title="Security">Privacy Policy</a></li>
+            <li><a href="#" title="Frequently asked Questions">FAQs</a></li>
+            <li><a href="#" title="Covid">Covid-19</a></li>
+          </ul>
+
         </div>
         <div class="col-md-3 col-sm-6 mt-5">
           <!--Column1-->
-          
-            <h4>Social Media</h4>
-            <ul class="list-unstyled">
-              <li><a href="#"><i class="fa fa-facebook-square" style="font-size:24px"></i> Facebook</a></li>
-              <li><a href="#"><i class="fa fa-instagram" style="font-size:24px"></i> Instagram</a></li>
-              <li><a href="#"><i class="fa fa-linkedin-square" style="font-size:24px"></i> Linkedin</a></li>
-              <li><a href="#"><i class="fa fa-twitter-square" style="font-size:24px"></i> Twitter</a></li>
-              <li><a href="#"><i class="fa fa-youtube-play" style="font-size:24px"></i> Youtube</a></li>
-            
-            </ul>
-          
+
+          <h4>Social Media</h4>
+          <ul class="list-unstyled">
+            <li><a href="#" title="Connect us on Facebook"><i class="fa fa-facebook-square "></i> Facebook</a></li>
+            <li><a href="#" title="Connect us on Instagram"><i class="fa fa-instagram"></i> Instagram</a></li>
+            <li><a href="#" title="Connect us on Linkedin"><i class="fa fa-linkedin-square"></i> Linkedin</a></li>
+            <li><a href="#" title="Connect us on Twitter"><i class="fa fa-twitter-square" style="font-size:24px"></i>
+                Twitter</a></li>
+            <li><a href="#" title="Connect us on Youtube"><i class="fa fa-youtube-play" style="font-size:24px"></i>
+                Youtube</a></li>
+
+          </ul>
+
         </div>
         <div class="col-md-3 col-sm-6 mt-5">
 
@@ -372,7 +396,7 @@
                   <div class="input-group-prepend">
                     <span class="input-group-text">@</span>
                   </div>
-                  <input type="text" placeholder="Enter your Email" class="form-control" id="email">
+                  <input type="text" placeholder="Enter your Email" class="form-control" name="email">
                 </div>
               </div>
 
