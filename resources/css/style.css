@@ -2,7 +2,7 @@
 
 .alert-custom {
   background-color: #faba42;
-  color: #fff;
+  color: white;
 }
 
 .btn-custom {
@@ -26,28 +26,63 @@
   color: #a83f3f;
 }
 
-.btn-custom-home{
-  background-color: #faba42;
+.btn-custom-home {
+  background-color:#3b3737;
   color: white;
 }
-.btn-lg{
+
+.btn-lg {
   padding: 1rem 1rem;
 }
 
-.courseCard
-{
-    background-color:#b34c4c;
-    color: white;
-    margin:1rem 1rem;
-    text-align:center;
-    padding-bottom: 0.5rem;
-    padding-top: 0.2rem;
+.courseCard {
+  background-color: #b34c4c;
+  color: white;
+  margin: 1rem 1rem;
+  text-align: center;
+  padding-bottom: 0.5rem;
+  padding-top: 0.2rem;
 }
 
 .resize img {
   width: 100%;
   height: 100%;
 }
+
+/* Why Bi-lingo */
+
+.feature{
+  position: relative;
+  display: block;
+  margin-top: 40px;
+}
+.feature .feature-icon{
+
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 30px;
+  border: 1px solid black;
+  color: orange;
+}
+
+.feature-content{
+  padding-left: 100px;
+}
+
+.about-img{
+  margin-top: 40px;
+}
+ .about-img>img{
+   width: 100%;
+   vertical-align: middle;
+   border: 0;
+ }
 
 /* Browse Course Section */
 
@@ -56,7 +91,7 @@
 }
 
 .course_container {
-  background-color: rgba(57, 62, 93, 0.7);
+  background-color: #393e5db3;
   padding: 0%;
   overflow: hidden;
   max-width: 370px;
@@ -72,15 +107,15 @@
 }
 
 .course_container h2 {
-  color: #fff;
+  color:white;
   font-weight: 800;
   font-size: 25px;
-  border-bottom: #fff solid 1px;
+  border-bottom: white solid 1px;
 }
 
 .course_container h4 {
   font-weight: 300;
-  color: #fff;
+  color: white;
   font-size: 16px;
 }
 
@@ -105,7 +140,7 @@
 
 .pricing span {
   font-size: 30px;
-  color: rgb(168, 63, 63);
+  color: #a83f3f;
   position: relative;
   margin: 0 auto;
   width: 100%;
@@ -144,7 +179,7 @@
 
 /* Offer Button */
 .btn-offer-brown {
-  background-color: rgb(168, 63, 63);
+  background-color: #a83f3f;
   color: white;
 }
 
@@ -154,13 +189,13 @@
   min-height: 90vh;
   display: flex;
   align-items: center;
-  background-color: rgb(231, 183, 93);
+  background-color: #e7b75d;
   font-family: 'Open Sans';
   font-style: italic;
 }
 
 #demo {
-  background: linear-gradient(112deg, #ffffff 50%, rgb(235, 207, 155) 50%);
+  background: linear-gradient(112deg, white 50%, #ebcf9b 50%);
   max-width: 800px;
   max-height: 400px;
   margin: auto
@@ -170,7 +205,7 @@
   position: initial;
   z-index: 10;
   padding: 5rem 8rem;
-  color: rgba(78, 77, 77, 0.856);
+  color: #4e4d4dda;
   text-align: center;
   font-size: 1.2rem;
   font-style: italic;
@@ -192,10 +227,8 @@
 }
 
 
-
-
 i.icon {
-  background-color: rgb(236, 157, 10);
+  background-color: #ec9d0a;
   padding: 1.4rem;
 }
 
@@ -218,23 +251,26 @@ i.icon {
     position: initial;
     z-index: 10;
     padding: 3rem 2rem;
-    color: rgba(78, 77, 77, 0.856);
+    color: #4e4d4dda;
     text-align: center;
     font-size: 0.7rem;
     font-style: italic;
     font-weight: bold;
     line-height: 1.5rem
   }
+
   .carousel-caption img {
     width: 4rem;
     border-radius: 4rem;
     margin-top: 1rem
   }
+
   #image-caption {
     font-style: normal;
     font-size: 0.6rem;
     margin-top: 0.5rem;
   }
+
   i {
     padding: 0.8rem
   }
@@ -243,12 +279,12 @@ i.icon {
 /*FOOTER*/
 
 footer {
-  background-color: rgb(168, 63, 63);
+  background-color: #a83f3f;
   color: white;
 }
 
 footer a {
-  color: #fff;
+  color: white;
   font-size: 14px;
   transition-duration: 0.5s;
 }
@@ -258,12 +294,12 @@ footer a:hover {
   text-decoration: none;
 }
 
-footer i{
+footer i {
   font-size: 5rem;
 }
 
 .copy {
   font-size: 12px;
   padding: 10px;
-  border-top: 1px solid #FFFFFF;
+  border-top: 1px solid white;
 }
